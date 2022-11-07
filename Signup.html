@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-header-signup">
+        <nav class="transparent">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="brand-logo">PH Island Adventures</a>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="destinations.html">Destinations</a>
+                        </li>
+                        <li>
+                            <a href="signup.html">Sign Up</a>
+                        </li>
+                        <li>
+                            <a href="#login-modal" class="btn blue modal-trigger">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Showcase -->
+        <div class="showcase container">
+            <div class="row">
+                <div class="col s12 m10 offset-m1 center">
+                    <h1>Create An Account</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidenav structure -->
+    <ul id="slide-out" class="sidenav">
+        <h4 class="purple-text text-darken-4 center">PH Island Adventures</h4>
+        <div class="divider"></div>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="destinations.html">Destinations</a>
+        </li>
+        <li class="active">
+            <a href="signup.html">Sign Up</a>
+        </li>
+        <li>
+            <a href="#login-modal" class="btn blue modal-trigger">Login</a>
+        </li>
+    </ul>
+
+    <!-- Section: Signup -->
+    <section class="section section-signup">
+        <div class="container">
+            <div class="row">
+                <div class="col s6 m6">
+                    <h4>get free account</h4>
+                    <p>Offers you a free Account membership, which comes with a host of benefits. Even if
+                        you have not subscribed to the Account, you can take advantage of the free membership</p>
+                    <h4>get Subscribe</h4>
+                    <p>Unlock unlimited access to a different destinations, advances careers, and simplifies
+                        experiences. Read local market intelligence, stay on-top of emerging good
+                        opportunities, and connect to a powerful community.</p>
+                    <h4>Push to the platform</h4>
+                    <p>Notifies users about new destination uploads when subscribed. The push allow users to control
+                        which they want to see.</p>
+                </div>
+                <div class="col s6 m6">
+                    <div class="card-panel grey lighten-4 grey-text text-lighten-4 z-depth-5">
+                        <form action="">
+                            <div class="input-field">
+                                <input type="text" id="first_name">
+                                <label for="first_name">First Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="first_name">
+                                <label for="last_name">Last Name</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="first_name">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="first_name">
+                                <label for="password">Password</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="company">
+                                <label for="company">Company</label>
+                            </div>
+                            <div class="input-field">
+                                <select name="" id="role">
+                                    <option value="" disabled selected>Select Role</option>
+                                    <option value="professional">Professional</option>
+                                    <option value="hobbyist">Hobbyist</option>
+                                    <option value="students">Students</option>
+                                    <option value="manager">Worker</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <label for="role">role</label>
+                            </div>
+                            <input type="submit" value="signup" class="btn btn-large purple btn-extend">Signup
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer deep-purple ighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">About Us</h5>
+                    <p class="grey-text text-lighten-4">Travel + Leisure is travelers' best resource for trip ideas,
+                        hotel picks, flight sales, city guides, and travel tips from the experts.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="destinations.html">Destinations</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="signup.html">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                &copy; 2022 Copyright PH Adventures
+                <a class="grey-text text-lighten-4 right" href="terms.html">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login modal Structure -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <h4>Account Login</h4>
+            <p>Login to access your account</p>
+            <form action="">
+                <div class="input-field">
+                    <input type="text" id="email">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="password">
+                    <label for="password">Password</label>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <a href="#" class="modal-action btn pink darken-4">
+                <i class="material-icons">lock_open</i>
+                Reset Password
+            </a>
+            <a href="#" class="modal-action btn pink darken-4">
+                <i class="material-icons">done_all</i>Login
+            </a>
+        </div>
+    </div>
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav({
+                edge: 'right'
+            });
+            //Modal Init
+            $('.modal').modal();
+            // Carousel Init
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true
+            });
+            // select Init
+            $('select').formSelect();
+        });
+    </script>
+</body>
+</html>

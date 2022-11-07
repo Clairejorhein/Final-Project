@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Favorite Places</title>
+</head>
+
+<body class="indigo lighten-4">
+
+
+    <div class="container">
+        <h2 class="purple-text"><b><i>Best Islands in PH</i></b></h2>
+
+        <div class="row">
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img data-caption="GUYAM ISLAND" class="materialboxed" src="images/guyam siargao1.jpg" alt="">
+                        <a href:"#modal1" class="modal-trigger halfway-fab btn-floating green pulse"><i
+                                class="material-icons">favorite</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p><b>SIARGAO </b></p>
+                    </div>
+                    <div class="card-action">
+                        <a class="blue-text modal-trigger" href="#modal1"><b><u>ABOUT</u></b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img data-caption="HUNDRED ISLAND" class="materialboxed" src="images/Hundred2.jpg" alt="">
+                        <a href:"#modal1" class="modal-trigger halfway-fab btn-floating blue pulse"><i
+                                class="material-icons">favorite</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p><b>PANGASINAN</b></p>
+                    </div>
+                    <div class="card-action">
+                        <a class="blue-text modal-trigger" href="#modal2"><b><u>ABOUT</u></b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img data-caption="BORACAY ISLAND" class="materialboxed" src="images/Bora1.jpg" alt="">
+                        <a href:"#modal1" class="modal-trigger halfway-fab btn-floating purple pulse"><i
+                                class="material-icons">favorite</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p><b>CATICLAN</b></p>
+                    </div>
+                    <div class="card-action">
+                        <a class="blue-text modal-trigger" href="#modal3"><b><u>ABOUT</u></b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img data-caption="CORON ISLAND" class="materialboxed" src="images/Coron.jpg" alt="">
+                        <a href:"#modal1" class="modal-trigger halfway-fab btn-floating pink pulse"><i
+                                class="material-icons">favorite</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p><b>PALAWAN</b></p>
+                    </div>
+                    <div class="card-action">
+                        <a class="blue-text modal-trigger" href="#modal4"><b><u>ABOUT</u></b></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Modal Structure-->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <h4><b>GUYAM ISLAND</b></h4>
+                    <p>Guyam Island is a tear-drop shaped island in the Philippine Sea situated 780 kilometres (480 mi)
+                        southeast of Manila in the province of Surigao del Norte. It is around 2 kilometres (1.2 mi)
+                        south-southeast of General Luna municipality. It is a popular stop for tourists doing
+                        island-hopping
+                        trips.</p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <h4><b>HUNDRED ISLAND</b></h4>
+                    <p>The Hundred Islands National Park is the first national park and a protected area located in
+                        Alaminos, Pangasinan in the northern Philippines. The islands, totaling 124 at low tide and 123
+                        at high tide, are scattered in Lingayen Gulf covering an area of 16.76 square kilometres (6.47
+                        sq mi). Only four of them have been developed for tourism: Marcos Island, Governor Island,
+                        Quezon Island, and Children's Island.</p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <h4><b>BORACAY ISLAND</b></h4>
+                    <p>The island boasts of crystal azure waters, powdery white sand, abundant flora and fauna, and
+                        diverse marine life. No wonder it remains as one of the best islands in the world and was
+                        recognized by Conde Nast Traveler and Travel+Leisure.</p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+            <div id="modal4" class="modal">
+                <div class="modal-content">
+                    <h4><b>CORON ISLAND</b></h4>
+                    <p>Coron is the third-largest island in the Calamian Islands in northern Palawan in the Philippines.
+                        The island is part of the larger municipality of the same name. It is about 170 nautical miles
+                        (310 km) southwest of Manila and is known for several Japanese shipwrecks of World War II
+                        vintage. Because of its unique ecological features, the entire area is protected by several
+                        legal proclamations.</p>
+                </div>
+                <div class="modal-footer"></div>
+            </div>
+
+
+            <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+                integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+            <!-- Compiled and minified JavaScript-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var matbox = document.querySelectorAll('.materialboxed')
+                    M.Materialbox.init(matbox)
+                })
+                document.addEventListener('DOMContentLoaded', function () {
+                    var slid = document.querySelectorAll('.slider')
+                    M.Slider.init(slid)
+                })
+                document.addEventListener('DOMContentLoaded', function () {
+                    var matbox = document.querySelectorAll('.materialboxed')
+                    M.Materialbox.init(matbox)
+                })
+                document.addEventListener('DOMContentLoaded', function () {
+                    var mod = document.querySelectorAll('.modal')
+                    M.Modal.init(mod)
+                })
+            </script>
+
+</body>
+
+</html>
